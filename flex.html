@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex
+        {
+            display: flex;
+        }
+        .left_bar 
+        {
+            width: 15%;
+        }
+        .right 
+        {
+           display: flex;
+           width: 100%;
+            
+           justify-content: end;
+           align-items: end;
+            border: 1px solid black;
+        }
+        .txt 
+        {
+            text-align: right;
+            border: none;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex">
+        
+                
+            <div class="left_bar">    
+                 <div>From</div>
+                 <div class="left">
+                    <span>&euro;</span>
+                    <input type="text" class="txt" value="0"></div>
+            </div>
+            <div class="left_bar">    
+                <div>From</div>
+                <div class="right"><input type="text" class="txt" value="0"></div>
+           </div>
+    
+    </div>
+</body>
+</html>
